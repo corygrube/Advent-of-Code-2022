@@ -23,7 +23,7 @@ def get_pri(item_type):
 	# uppercase - 'A' begins at 65, so (type - 64 + 26) -> (type - 38)
 	return ordinal - 38
 
-with open('Day 3\\input 1.txt', 'r') as file:
+with open('Day 3\\input.txt', 'r') as file:
 	# read as list of lines
 	input = file.read().splitlines()
 	

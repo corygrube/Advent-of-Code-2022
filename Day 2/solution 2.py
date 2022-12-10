@@ -47,7 +47,7 @@ def rps(opp_throw, outcome):
 	}
 	return scoring[your_throw] + scoring[outcome]
 
-with open('Day 2\\input 1.txt', 'r') as file:
+with open('Day 2\\input.txt', 'r') as file:
 	# read as list of lines
 	lines = file.readlines()
 	# A = opp Rock, B = opp Paper, C = opp Scissors

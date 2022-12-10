@@ -54,7 +54,7 @@ def win(score):
 	"""increase score by 6 for win"""
 	return score + 6
 
-with open('Day 2\\input 1.txt', 'r') as file:
+with open('Day 2\\input.txt', 'r') as file:
 	# read as list of lines
 	lines = file.readlines()
 	# A/X = Rock = 1

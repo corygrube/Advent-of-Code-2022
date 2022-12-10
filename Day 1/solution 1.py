@@ -1,7 +1,7 @@
 # Day 1
 
 # Part 1
-with open('Day 1\\input 1.txt', 'r') as file:
+with open('Day 1\\input.txt', 'r') as file:
 	# read as list of lines
 	lines = file.readlines()
 	
