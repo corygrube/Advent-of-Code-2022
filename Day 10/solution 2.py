@@ -1,11 +1,11 @@
 # Day 10
-# Part 1
+# Part 2
 
 class Device:
 	x = 1			# sprite middle position (length of 3)
-	cycle = 1
+	cycle = 1		# CPU cycle
 	_row = []		# pixel row
-	_screen = []		# screen/pixel output
+	_screen = []	# screen/pixel output
 	
 	def _cycle(self, v=None):
 		"""
@@ -53,7 +53,7 @@ class Device:
 		self._cycle()
 	
 	def print_scrn(self):
-		# print screen list as single string
+		"""print screen list as single string"""
 		print(''.join(self._screen))
 
 def get_input(path): 
